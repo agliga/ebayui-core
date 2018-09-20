@@ -198,9 +198,9 @@
   version "1.0.0"
   resolved "https://registry.npmjs.org/@ebay/browserslist-config/-/browserslist-config-1.0.0.tgz#06328378600156458dacb0278767ff8490f2074c"
 
-"@ebay/skin@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.npmjs.org/@ebay/skin/-/skin-6.0.0.tgz#7aee8b8b4b34cf79b7c243418e750ea9b127479b"
+"@ebay/skin@^6.0.3":
+  version "6.0.3"
+  resolved "https://registry.npmjs.org/@ebay/skin/-/skin-6.0.3.tgz#63b6eac4f2b7ff70a0eb895490588c3b745fe400"
 
 "@lasso/marko-taglib@^1.0.10":
   version "1.0.10"
@@ -4092,7 +4092,14 @@ htmlescape@^1.1.0:
   version "1.1.1"
   resolved "https://registry.npmjs.org/htmlescape/-/htmlescape-1.1.1.tgz#3a03edc2214bca3b66424a3e7959349509cb0351"
 
-htmljs-parser@^2.2.1, htmljs-parser@^2.3.2:
+htmljs-parser@^2.2.1:
+  version "2.4.0"
+  resolved "https://registry.npmjs.org/htmljs-parser/-/htmljs-parser-2.4.0.tgz#3ed017d69af620d84c1c4cc992b02bb1309fa628"
+  dependencies:
+    char-props "^0.1.5"
+    complain "^1.0.0"
+
+htmljs-parser@^2.3.2:
   version "2.3.2"
   resolved "https://registry.npmjs.org/htmljs-parser/-/htmljs-parser-2.3.2.tgz#1cc5bf9824a091c28820b33eaf78083a8eaa856c"
   dependencies:
